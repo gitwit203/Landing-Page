@@ -1,0 +1,121 @@
+.flex-items{
+    display: flex;
+    background-color: #1F2937;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #F9FAF8;
+    justify-content: space-between;
+    font-size: larger;
+    padding: 20px;
+
+}
+.clubbed{
+    display:flex;
+    justify-content:space-evenly;
+    width:10%;
+    
+}
+.webinfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.about{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    /* flex-direction: column; */
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 1%;
+     
+    
+}
+.left{
+    align-items: flex-start;
+}
+
+.right{
+    display: flex;
+    align-content: flex-end;
+    flex-direction: row;
+
+}
+.pt2{
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+}
+.heading{
+    font-size: 36px;
+    font-weight:bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.bwithtext{
+    display: flex;
+    padding: 1%;
+    height: 10% ;
+}
+.boxes{
+    display: flex;
+    /* flex-direction: column; */
+    height: 100px;
+    width:100px;
+    border:2px solid turquoise;
+    border-radius: 10%;
+    
+
+}
+.bwithtext{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.pt3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    word-wrap: break-word;
+    background-color: #E5E7EB;
+    font-size: 26px;
+    padding: auto;
+}
+.quote
+{
+    display:flex;
+    align-content: flex-start;
+    font-size: 20px;
+    justify-content: space-between;
+}
+.pt4{
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    flex-basis: 100px;
+	flex-grow: 0;
+	flex-shrink: 0;
+}
+.ptext{
+    font-size: 30px;
+    color: #F9FAF8;
+
+}
+.sectext{
+    font-size:18px;
+    color:#ccced1;
+}
+.b{
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color:#F9FAF8 ;
+}
